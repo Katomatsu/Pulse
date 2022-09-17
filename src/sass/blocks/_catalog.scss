@@ -39,12 +39,17 @@
     }
     &__content {
         margin-top: 60px;
-        display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         display: none; 
         &_active {
             display: flex;
+        }
+        &_second {
+            justify-content: center;
+        }
+        &_third {
+            justify-content: space-evenly;
         }
     }
     &-item {
@@ -170,3 +175,4 @@
         }
     }
 }
+
