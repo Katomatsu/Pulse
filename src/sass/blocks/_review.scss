@@ -1,15 +1,10 @@
 .review {
     padding-bottom: 71px;
-    &__wrapper {
-        margin-top: 70px;
-        display: flex;
-        flex-direction: column;
-    }
     &__item {
         display: flex;
         margin-top: 100px;
         &:nth-child(1) {
-            margin-top: 0;
+            margin-top: 70px;
         }
     }
     &__descr {

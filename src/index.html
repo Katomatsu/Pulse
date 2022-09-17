@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -80,7 +81,7 @@
                         так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="benefits__item">
-                    <img src="icons/heart.svg" alt="heart" class="benefits__img">
+                    <img src="icons/heart.svg" alt="heart" class="benefits__img benefits__img_animated">
                     <div class="benefits__subtitle">Заботимся о здоровье</div>
                     <div class="benefits__descr">Мы работаем для того, 
                         чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
@@ -115,7 +116,7 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -129,7 +130,7 @@
                 </div>
               </div>
         </div>
-    </section>
+    </div>
 
     <section class="catalog">
         <div class="container">
@@ -439,9 +440,8 @@
 
     <section class="review">
         <div class="container">
-            <div class="title">отзывы клиентов</div>
-            <div class="review__wrapper">
-                <div class="review__item">
+            <h2 class="title">отзывы клиентов</h2>
+                <div class="review__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0.3s">
                     <img src="img/review-1.png" alt="woman" class="review__img">
                     <div class="review__descr">
                         <div class="review__title">Ирина Иванченко</div>
@@ -454,7 +454,7 @@
                             Спасибо, RunSmart!</div>
                     </div>
                 </div>
-                <div class="review__item">
+                <div class="review__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0.3s">
                     <img src="img/review-2.png" alt="man" class="review__img">
                     <div class="review__descr">
                         <div class="review__title">Иван Сёмочкин</div>
@@ -465,7 +465,7 @@
                             С ними подготовился к своему первому полумарафону! Спасибо!!!</div>
                     </div>
                 </div>
-                <div class="review__item">
+                <div class="review__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0.3s">
                     <img src="img/review-3.png" alt="woman" class="review__img">
                     <div class="review__descr">
                         <div class="review__title">Юлия Дашкина</div>
@@ -477,7 +477,6 @@
                             Спасибо!!!</div>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
 
@@ -556,6 +555,7 @@
     <script src="js/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/index.js"></script>
 
 </body>
