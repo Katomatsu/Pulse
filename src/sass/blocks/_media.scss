@@ -1,0 +1,219 @@
+@media ( max-width: 991px ) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+            margin-top: 50px;
+        }
+    }
+    .benefits {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-top: 40px;
+        }
+    }
+    .consultation {
+        .title_left {
+            text-align: center;
+            font-size: 30px;
+        }
+        &__descr {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .feed-form {
+            margin: 36px auto 0 auto;
+        }
+    }
+    .carousel {
+        &__inner {
+            .slick-dots {
+                display: flex;
+                justify-content: center;
+                list-style-type: none;
+                margin-bottom: 0;
+                padding-left: 0;
+            
+                li {
+                    margin: 0 10px;
+                    width: 20px;
+                    height: 6px;
+                    background-color: rgba( 0, 0, 0, .5);
+                    button {
+                        display: none;
+                    }
+                }
+                li.slick-active {
+                    background-color: black;
+                }
+            }
+        }
+    }
+
+    .catalog {
+        &__content {
+            justify-content: space-evenly;
+        }
+    }
+
+}
+
+@media ( max-width: 767px ) {
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 15px;
+            }
+        }
+        &__phone {
+            font-size: 17px;
+        }
+    }
+    .promo {
+        &__title {
+            font-size: 39px;
+        }
+    }
+    .consultation {
+        .title {
+            font-size: 26px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 90%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 170px;
+        }
+    }
+    .review {
+        &__item {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        &__img {
+            margin-right: 0;
+        }
+        &__descr {
+            margin-top: 30px;
+            align-items: center;
+            justify-content: center;
+        }
+        &__text {
+            width: 400px;
+        }
+    }
+}
+
+@media ( max-width: 575px ) {
+    .header {
+        flex-direction: column;
+        &__official {
+            margin-top: 20px;
+            font-size: 13px;
+            span {
+                font-size: 18px;
+            }
+        }
+        &__contacts {
+            margin-top: 20px;
+        }
+    }
+
+    .promo {
+        &__title {
+            font-size: 33px;
+            text-align: center;
+        }
+        &__subtitle {
+            text-align: center;
+            font-size: 23px;
+            margin-top: 20px;
+        }
+        &__icons {
+            width: 100%;
+        }
+    }
+
+    .benefits {
+        &__wrapper {
+            margin-top: 40px;
+        }
+    }
+
+    .consultation {
+        min-height: 640px;
+        .title {
+            font-size: 21px;
+        }
+        &__descr {
+            font-size: 16px;
+        }
+    }
+    .catalog {
+        &__tabs {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-right: 0;
+            padding-right: 0;
+            border-right: 0;
+        }
+        &__tab {
+            width: 90%;
+            font-size: 15px;
+            font-weight: 500;
+            margin: 0 auto;
+            margin-top: 20px;
+            &:nth-child(1) {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .review {
+        &__descr {
+            width: 100%;
+        }
+        &__text {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 320px;
+        }
+    }
+
+    .modal {
+        .feed-form {
+            width: 280px;
+        }
+        &__close {
+            right: 30px;
+            top: 15px;
+        }
+    }
+
+    
+
+    .title {
+        font-size: 24px;
+    }
+}
