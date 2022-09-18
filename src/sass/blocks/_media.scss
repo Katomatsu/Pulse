@@ -165,7 +165,7 @@
     }
     .catalog {
         &__tabs {
-            width: 100%;
+            width: 90%;
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -177,8 +177,9 @@
             width: 90%;
             font-size: 15px;
             font-weight: 500;
-            margin: 0 auto;
+            margin: 0 ;
             margin-top: 20px;
+            margin-left: 20px;
             &:nth-child(1) {
                 margin-top: 0;
             }
